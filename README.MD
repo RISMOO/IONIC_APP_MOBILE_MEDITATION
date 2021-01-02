@@ -1,5 +1,5 @@
 ## Application Hybride developpée avec Ionic/Angular
-![Watch the video](./ressourcesRD/ionioc2.webp)
+![](./ressourcesRD/ionioc2.webp)
 
 ***
 
@@ -14,14 +14,16 @@
      npm install -g @ionic/cli
 ## Start
      ionic start projet tabs
-## Run yoor app
+## Run your app
      cd projet
      ionic serve
 ## Demo
     > cd 
-    C:\Users\Projets> ionic cordova run browser
+    C:\Users\projet> ionic cordova run browser
   ***
 
 
+![](./ressourcesRD/ionic_meditation.webp)
 
-![Watch the video](./ressourcesRD/ionic_meditation.webp)
+
+rismo.fr
