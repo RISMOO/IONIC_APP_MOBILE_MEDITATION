@@ -1,5 +1,5 @@
 ## Application Hybride developpée avec Ionic/Angular
-![Watch the video](./ressourcesRD/ionic.gif)
+![Watch the video](./ressourcesRD/ionioc2.webp)
 
 ***
 
@@ -11,4 +11,10 @@
 
 ***
 ## Demo
-![Watch the video](./ressourcesRD/medi2.gif)
+    > cd 
+    C:\Users\Projets> ionic cordova run browser
+  ***
+
+
+
+![Watch the video](./ressourcesRD/ionic_meditation.webp)
