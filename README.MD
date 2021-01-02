@@ -1,5 +1,5 @@
 ## Application Hybride developpée avec Ionic/Angular
-![Watch the video](https://rismo.fr/images/ionic.gif)
+![Watch the video](./ressourcesRD/ionic.gif)
 
 ***
 
@@ -11,4 +11,4 @@
 
 ***
 ## Demo
-![Watch the video](https://rismo.fr/images/medi2.gif)
+![Watch the video](./ressourcesRD/medi2.gif)
