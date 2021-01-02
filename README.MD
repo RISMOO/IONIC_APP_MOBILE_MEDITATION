@@ -26,4 +26,4 @@
 ![](./ressourcesRD/ionic_meditation.webp)
 
 
-rismo.fr
+[rismo.fr](https://rismo.fr)
