@@ -1,0 +1,27 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title> Méditation </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-item lines="none" (click)="openPicker()">
+    <ion-label color="light"
+      >Durée de la méditation: {{ meditationDurationMinutes }} min</ion-label
+    >
+    <ion-icon color="light" slot="end" name="hourglass"></ion-icon>
+  </ion-item>
+
+  <div class="flex">
+    <div
+      *ngFor="let item of array"
+      (click)="openMeditation(item)"
+      class="box ion-activatable"
+    >
+      <!--fonction modal homepagets-->
+      <ion-ripple-effect></ion-ripple-effect>
+      <img [src]="item.imgUrl" />
+      <p>{{ item.title }}</p>
+    </div>
+  </div>
+</ion-content>

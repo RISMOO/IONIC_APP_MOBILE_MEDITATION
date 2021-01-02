@@ -1,0 +1,34 @@
+<ion-content>
+  <ion-item lines="none">
+    <ion-label>
+      <h2><b>{{ title }}</b></h2>
+    </ion-label>
+    <ion-button fill="clear" color="light" slot="end" (click)="close()">
+      <ion-icon slot="icon-only" name="close"></ion-icon>
+    </ion-button>
+  </ion-item>
+
+  <ion-button shape="round" (click)="playPause()" size="large" color="light" class="playButton" fill="clear">
+    <ion-icon slot="icon-only" [name]="butttonIcon"></ion-icon>
+  </ion-button>
+
+  <h3><ion-icon name="stopwatch"></ion-icon> {{ minutes }}:{{ seconds}}</h3>
+
+  <round-progress
+    [current]="timer"
+    [max]="meditationDuration"
+    [color]="'#4378a9'"
+    [background]="'#EAEAEA'"
+    [radius]="125"
+    [stroke]="15"
+    [rounded]="true"
+    [clockwise]="true"
+    [responsive]="false"
+    [duration]="800"
+    [animation]="'easeInOutQuart'"
+    [animationDelay]="0"></round-progress>
+
+  <img class="bg" [src]="imgUrl">
+  <div class="img_filter"></div>
+
+</ion-content>

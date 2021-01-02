@@ -1,0 +1,7 @@
+{
+  "name": "medi",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "angular"
+}
